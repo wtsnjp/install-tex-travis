@@ -1,7 +1,7 @@
 Install Script for TeXLive2018 to macOS and Linux on Travis CI
 ==============================================================
 
-[![Build Status](https://travis-ci.org/y-yu/install-tex-travis.svg?branch=master)](https://travis-ci.org/y-yu/install-tex-travis)
+[![Build Status](https://travis-ci.org/wtsnjp/install-tex-travis.svg?branch=master)](https://travis-ci.org/wtsnjp/install-tex-travis)
 
 ## How to use
 
