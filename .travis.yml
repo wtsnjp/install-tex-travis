@@ -4,10 +4,9 @@ os:
 dist: trusty
 sudo: false
 language: generic
-install:
-  - . ./install-tex.sh
-#script:
-#  - for i in {1..10}; do
-#      echo "===== Try #${i} ====="
-#      . ./install-tex.sh
-#    done
+script:
+  - |
+    for i in {1..10}; do
+      echo "===== Try #${i} ====="
+      . ./install-tex.sh
+    done
