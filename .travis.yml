@@ -3,14 +3,6 @@ os:
   - linux
 dist: trusty
 sudo: false
-matrix:
-  allow_failures:
-    - os: osx
 language: generic
 install:
   - . ./install-tex.sh
-script:
-  - latex -v
-  - tlmgr --version
-  - ./tlmgr.sh install collection-langjapanese
-  - platex -v
