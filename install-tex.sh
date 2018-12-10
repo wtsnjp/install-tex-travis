@@ -29,10 +29,8 @@ EOS
 
 if [[ $TRAVIS_OS_NAME == 'osx' ]]; then
   echo "$BASE_PROFILE\nbinary_x86_64-darwin 1" > ./small.profile
-  export PATH=$PATH:$HOME/texlive/bin/x86_64-darwin
 else
   echo "$BASE_PROFILE\nbinary_x86_64-linux 1" > ./small.profile
-  export PATH=$PATH:$HOME/texlive/bin/x86_64-linux
 fi
 
 ./install-tl -profile ./small.profile
